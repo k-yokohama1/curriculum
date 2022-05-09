@@ -17,7 +17,7 @@ STP-仕組み- 提出課題
 
 •Switch2
 □F0/1 ルートポート
-◯ルートパスコスト計算①Switch3-Switch 1（100） ＋Switch1-Switch2（19）＝119②Switch3-Switch4（100）＋Switch4-Switch2（100）＝200
+◯ルートパスコスト計算①Switch3-Switch 1（100） ＋Switch1-Switch2（19）②Switch3-Switch4（100）＋Switch4-Switch2（100）＝200
 ①のルートパスコストの経路の方が低いため、F0/1ルートポート
 
 □F0/2ブロッキングポート
@@ -32,4 +32,6 @@ STP-仕組み- 提出課題
 •Switch4
 □E0/1 ブロッキングポートどちらにも選出されなかったため
 
-□E0/2 ブロッキングポートどちらにも選出されなかったため
+□E0/2 
+◯ルートポート ルートパスコスト計算①Switch3-Switch4（100）②Switch3-Switch4（100）＋Switch4-Switch2（100）＋Switch2-Switch4（100）＝300
+①のルートパスコストの経路の方が低いため、E0/2ルートポート
